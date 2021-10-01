@@ -26,7 +26,7 @@ public class RetirementGoal {
             System.out.println("ERROR: Invalid input. Enter new values again.");
             System.out.println();
          }
-      } while (year < 1 || money <= 0);
+      } while (year > 1 || money >= 0);
       
       System.out.println();
       System.out.println("You will have $" + (year * money) +
